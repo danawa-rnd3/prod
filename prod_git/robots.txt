@@ -1,0 +1,21 @@
+# robots.txt for http://prod.danawa.com/
+
+User-agent: Googlebot
+Disallow: /bridge/
+Disallow: /community/
+Disallow: /partner/
+Crawl-delay: 10
+
+User-agent: Googlebot - Image
+Disallow: /bridge/
+Disallow: /community/
+Disallow: /partner/
+Crawl-delay: 10
+
+User-agent: *
+Disallow: /bridge/
+Disallow: /community/
+Disallow: /partner/
+
+Sitemap: http://prod.danawa.com/prodListSiteMapIndex.xml
+Sitemap: http://prod.danawa.com/prodSiteMapIndex.xml
